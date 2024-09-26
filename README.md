@@ -3,6 +3,9 @@
 ## Download the slide deck here: 
 [PowerPoint version](https://github.com/vguhesan/devnotes-virtualbox/blob/main/VirtualBox-for-local-development-v1.pptx) | [PDF version](https://github.com/vguhesan/devnotes-virtualbox/blob/main/VirtualBox-for-local-development-v1.pdf)
 
+## Agenda
+![Agenda](./_res/agenda.jpg "Agenda")
+
 ## Mac Silicon:
 ```bash
 uname -a
@@ -146,3 +149,16 @@ https://cdimage.ubuntu.com/jammy/daily-live/current/
   - Ubuntu: is a user-friendly, popular Debian based Linux Distribution with a good clean user interface.
   - RHEL/Rocky Linux uses - yum/dnf and rpm for the package manager.
   - Ubuntu uses - apt, dpkg and snap as the package manager.
+## Resources and links:
+- Rocky Linux: https://rockylinux.org/
+- Ubuntu Downloads: https://cdimage.ubuntu.com/jammy/daily-live/current/
+- RHEL Download: https://developers.redhat.com/products/rhel/download
+- VirtualBox Downloads: https://www.virtualbox.org/wiki/Linux_Downloads
+- VirtualBox User Guide:https://www.virtualbox.org/manual/
+- Linux variants for macOS (apple silicon):
+  - https://asahilinux.org/about/
+  - https://cdimage.ubuntu.com/jammy/daily-live/current/
+  - https://rockylinux.org/download
+- How-to PostgreSQL?
+  - https://www.cherryservers.com/blog/how-to-install-and-setup-postgresql-server-on-ubuntu-20-04
+  - https://www.directedignorance.com/blog/upgrading-postgresql-14-to-16-on-ubuntu
