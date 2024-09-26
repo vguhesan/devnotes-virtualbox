@@ -1,6 +1,6 @@
 # Developer Notes: Installing VirtualBox 7.1.0 on Mac OSx and installing a guest machine with Ubuntu 22.04.5 LTS
 
-## Host: VirtualBox 7.1.0 on Mac OSx - Guest: Ubuntu 22.04.5 LTS - Notes
+## Download the slide deck here: [Powerpoint](https://github.com/vguhesan/devnotes-virtualbox/blob/main/VirtualBox-for-local-development-v1.pptx) | (PDF)[https://github.com/vguhesan/devnotes-virtualbox/blob/main/VirtualBox-for-local-development-v1.pdf]
 
 ## Mac Silicon:
 ```bash
