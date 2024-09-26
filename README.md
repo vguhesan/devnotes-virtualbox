@@ -1,31 +1,35 @@
-# Developer Notes: Installing VirtualBox 7.1.0 on Mac OSx and installing a guest machine with Ubuntu 22.04.5 LTS
+## Developer Notes: 
+### Installing VirtualBox 7.1.0 on Mac OSx and installing a guest machine with Ubuntu 22.04.5 LTS
 
-## Download the slide deck here: 
+### Where is this hosted?
+[GitHub account > vguhesan/devnotes-virtualbox](https://github.com/vguhesan/devnotes-virtualbox)
+
+### Download the slide deck here: 
 [PowerPoint version](https://github.com/vguhesan/devnotes-virtualbox/blob/main/VirtualBox-for-local-development-v1.pptx) | [PDF version](https://github.com/vguhesan/devnotes-virtualbox/blob/main/VirtualBox-for-local-development-v1.pdf)
 
-## Agenda
+### Agenda
 ![Agenda](./_res/agenda.jpg "Agenda")
 
-## Mac Silicon:
+### Mac Silicon:
 ```bash
 uname -a
 ... arm64
 # Macbook M2 is based on AARCH64 (which is now called ARM64)
 ```
-## Ubuntu 22.04.5 LTS (Jammy Jellyfish) - Daily Build:
+### Ubuntu 22.04.5 LTS (Jammy Jellyfish) - Daily Build:
 https://cdimage.ubuntu.com/jammy/daily-live/current/
 - Use the one that says "64-bit ARM (ARMv8/AArch64) desktop image / For 64-bit ARMv8 processors and above."
 - If you have Windows then run you can download a "x80_86" version of Ubuntu 22.04.5 LTS
 - If you are installing on Linux then run 'uname -a' to determine the host architecture. Available here: https://ubuntu.com/download/desktop
 
-## Prerequisites:
+### Prerequisites:
 - Ensure that you have the latest VirtualBox installed. As of this writing, VirtualBox Version 7.1.0 r164728 is what my instructions are based upon (on a Mac OSx Air M2 chipset) / https://www.virtualbox.org/wiki/Downloads
 
-## Ubuntu installation on VirtualBox
+### Ubuntu installation on VirtualBox
 - BIG NO NO - skip `unattended installation` (this will not give you sudo permissions you will need post installation). Use the native Ubuntu OS installer to install the UI (and not the VirtualBox configuration for installation) - the native OS installers are streamlined for your use better than what VirtualBox thinks is best for you.
 - VirtualBox creates a default "vboxuser" user with "changeme" password for Ubuntu. You will need this to login post installation.
   
-## Installation Steps
+### Installation Steps
 
 ![VirtualBox 7.1 Ubuntu 22.04.5 LTS : Step-1](./_res/virtualbox-7-1-ubuntu-step-1.jpg "VirtualBox 7.1 Ubuntu 22.04.5 LTS : Step-1")
 ![VirtualBox 7.1 Ubuntu 22.04.5 LTS : Step-2](./_res/virtualbox-7-1-ubuntu-step-2.jpg "VirtualBox 7.1 Ubuntu 22.04.5 LTS : Step-2")
@@ -33,7 +37,7 @@ https://cdimage.ubuntu.com/jammy/daily-live/current/
 ![VirtualBox 7.1 Ubuntu 22.04.5 LTS : Step-4](./_res/virtualbox-7-1-ubuntu-step-4.jpg "VirtualBox 7.1 Ubuntu 22.04.5 LTS : Step-4")
 ![VirtualBox 7.1 Ubuntu 22.04.5 LTS : Step-5](./_res/virtualbox-7-1-ubuntu-step-5.jpg "VirtualBox 7.1 Ubuntu 22.04.5 LTS : Step-5")
 
-## Top things to do post installation
+### Top things to do post installation
 
 1. Install and enable SSH Daemon on the guest machine.
    
@@ -108,7 +112,7 @@ https://cdimage.ubuntu.com/jammy/daily-live/current/
    ```
    ![VirtualBox Port Forwarding between guest and host - PostgreSQL 5432](./_res/virtualbox-port-forwarding-postgresql-5432.jpg "VirtualBox Port Forwarding between guest and host - PostgreSQL 5432")
 
-## Topics of Importance (while presenting):
+### Topics of Importance (while presenting):
 - Virtual machines vs. Containers - key differences
   
   ![Virtual machines vs. Containers - key difference](./_res/container-vms-comparison.jpg "Virtual machines vs. Containers - key difference")
@@ -149,7 +153,8 @@ https://cdimage.ubuntu.com/jammy/daily-live/current/
   - Ubuntu: is a user-friendly, popular Debian based Linux Distribution with a good clean user interface.
   - RHEL/Rocky Linux uses - yum/dnf and rpm for the package manager.
   - Ubuntu uses - apt, dpkg and snap as the package manager.
-## Resources and links:
+
+### Resources and links:
 - Rocky Linux: https://rockylinux.org/
 - Ubuntu Downloads: https://cdimage.ubuntu.com/jammy/daily-live/current/
 - RHEL Download: https://developers.redhat.com/products/rhel/download
