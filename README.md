@@ -154,7 +154,7 @@ https://cdimage.ubuntu.com/jammy/daily-live/current/
 - Ubuntu Downloads: https://cdimage.ubuntu.com/jammy/daily-live/current/
 - RHEL Download: https://developers.redhat.com/products/rhel/download
 - VirtualBox Downloads: https://www.virtualbox.org/wiki/Linux_Downloads
-- VirtualBox User Guide:https://www.virtualbox.org/manual/
+- VirtualBox User Guide: https://www.virtualbox.org/manual/
 - Linux variants for macOS (apple silicon):
   - https://asahilinux.org/about/
   - https://cdimage.ubuntu.com/jammy/daily-live/current/
